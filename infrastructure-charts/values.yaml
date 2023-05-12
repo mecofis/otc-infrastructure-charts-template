@@ -90,6 +90,6 @@ charts:
     targetRevision: 3.5.12 # Helm Chart Repo URL
     parameters:
       - name: "ingress.enabled"
-        value: true
+        value: "true"
       - name: "ingress.path"
         value: "/nextcloud"
