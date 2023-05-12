@@ -88,3 +88,7 @@ charts:
     namespace: nextcloud # Which namespace should the service be deployed
     repoURL: "https://nextcloud.github.io/helm/" # Helm repo URL by default it takes the helm repo URL from line 11
     targetRevision: 3.5.12 # Helm Chart Repo URL
+    parameter:
+      ingress:
+        enabled: true
+        path: /nextcloud
