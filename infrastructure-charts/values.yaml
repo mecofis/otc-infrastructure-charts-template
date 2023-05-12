@@ -83,3 +83,8 @@ charts:
   elastic-stack:
     namespace: monitoring
     targetRevision: "7.17.3-route-bugfix"
+
+  nextcloud:
+    namespace: nextcloud # Which namespace should the service be deployed
+    repoURL: "https://nextcloud.github.io/helm/" # Helm repo URL by default it takes the helm repo URL from line 11
+    targetRevision: 3.5.12 # Helm Chart Repo URL
